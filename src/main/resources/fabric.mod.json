@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "blockrotation",
+  "version": "${version}",
+  "name": "Block Rotation",
+  "description": "Client-side only. Makes common blocks look and sound like rare ones on your screen. Nothing changes on the server.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.blockrotation.BlockRotationClient"]
+  },
+  "mixins": ["blockrotation.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

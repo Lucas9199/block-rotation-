@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.blockrotation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BlockStateSoundMixin",
+    "SkullTypeMixin",
+    "CryingObsidianParticlesMixin",
+    "FakeSpawnerCullingMixin",
+    "FakeMobNoHitMixin",
+    "SpawnerClickMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
